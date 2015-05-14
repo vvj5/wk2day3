@@ -1,8 +1,9 @@
 class Player
-  attr_accessor :deck, :name, :score
 
   def initialize
-    @score = 0
+
+    # (score, name, deck)
+    @score =0
   end
 
   def draw

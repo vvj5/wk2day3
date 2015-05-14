@@ -6,12 +6,13 @@ class Deck
       (2..10).each do |number|
         @cards.push(Card.new(suit, number))
       end
-      @cards.push(Card.new(suit, 10)) #J
-      @cards.push(Card.new(suit, 10)) #Q
-      @cards.push(Card.new(suit, 10)) #K
-      @cards.push(Card.new(suit, 11)) #A
     end
-    @cards = @cards.shuffle
+    #   @cards.push(Card.new(suit, 10)) #J
+    #   @cards.push(Card.new(suit, 10)) #Q
+    #   @cards.push(Card.new(suit, 10)) #K
+    #   @cards.push(Card.new(suit, 11)) #A
+    # end
+  #   @cards = @cards.shuffle
   end
 
   def deal
